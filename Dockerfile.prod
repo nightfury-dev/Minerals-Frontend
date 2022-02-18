@@ -1,0 +1,17 @@
+# Pull Docker Hub base image
+FROM node:12.18.3-alpine3.12 as builder
+# Set working directory
+WORKDIR /usr/src/frontend
+# Install app dependencies
+COPY package*.json ./
+RUN npm install
+# Copy app to container
+COPY . .
+# Run the "dev" script in package.json
+RUN npm run build
+
+FROM nginx
+COPY --from=builder /usr/src/frontend/build /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/
+# EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]

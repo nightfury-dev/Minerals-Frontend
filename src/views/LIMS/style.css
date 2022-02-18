@@ -1,0 +1,219 @@
+.was-validated .custom-select:valid {
+  background: #fff
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23636f83' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat right 0.75rem center/8px 10px;
+}
+.test {
+  margin: 20px;
+}
+.was-validated .custom-select:invalid {
+  background: #fff
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23636f83' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat right 0.75rem center/8px 10px;
+}
+
+.was-validated .form-control:valid {
+  background: none;
+}
+.not-css {
+  margin-top: 100px !important;
+}
+.button_style {
+  color: #fff;
+  background-color: #39f;
+  border-color: #39f;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.button_style:active {
+  border: none;
+}
+.was-validated .form-control:invalid {
+  background: none;
+}
+.anticon-eye {
+  display: none;
+}
+.anticon-close {
+  display: none;
+}
+#tableUserTypes .table thead th {
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+  background-color: rgba(235, 237, 239, 1);
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+#tableUserTypes .table td {
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+#tableSampleTypes .table thead th {
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+  background-color: rgba(235, 237, 239, 1);
+  text-align: center;
+}
+
+#tableSampleTypes .table thead th:first-child {
+  text-align: left;
+}
+
+#tableSampleTypes .table td {
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+#tableClients .table thead th {
+  white-space: nowrap;
+}
+
+#tableInputLaboratory .table thead th {
+  white-space: nowrap;
+}
+.table th {
+  font-weight: 500 !important;
+}
+
+.table td {
+  vertical-align: middle;
+}
+.react-datepicker__time-list {
+  padding: 0 !important;
+}
+
+#due_date {
+  width: 720px;
+  height: 40px;
+  border-color: #d8dbe0;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  color: #cacccf;
+  background-color: #fff;
+}
+#sending_date {
+  width: 720px;
+  height: 40px;
+  border-color: #d8dbe0;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  color: #cacccf;
+  background-color: #fff;
+}
+
+#sample_date {
+  width: 720px;
+  height: 40px;
+  border-color: #d8dbe0;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  color: #cacccf;
+  background-color: #fff;
+}
+
+#charge {
+  display: flex;
+  justify-content: center;
+  width: 720px;
+  height: 40px;
+  border-color: #d8dbe0;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  color: #cacccf;
+  background-color: #fff;
+}
+
+.row {
+  align-items: center;
+}
+
+label {
+  margin: 0px !important;
+}
+
+.col-md-2 {
+  display: flex;
+  align-items: center;
+}
+.chk {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition: all 1s ease;
+}
+
+.clr-full {
+  background-color: green;
+}
+
+.modal.show .modal-dialog {
+  width: fit-content !important;
+}
+
+.modal-lg {
+  max-width: 2000px;
+}
+
+.ctable {
+  line-height: 5px !important;
+  font-size: 13px !important;
+}
+.ctable .table-responsive {
+  line-height: 5px !important;
+  font-size: 12px;
+}
+
+ul.admin_settings {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #ebedef;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul.admin_settings > li {
+  width: 100%;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+ul.admin_settings > li.active {
+  font-weight: bold;
+}
+ul.admin_settings > li:hover {
+  background-color: #dfdfdf;
+}
+div.setting_content {
+  background-color: #ebedef;
+  border-radius: 5px;
+  min-height: 500px;
+}
+
+.format-item {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.format-item .custom_checkbox {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(190, 36, 36);
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgb(190, 36, 36);
+}
+
+.format-item .custom_checkbox.active {
+  border: 1px solid green !important;
+  background-color: green !important;
+}
+
+.format-item .format_text {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
